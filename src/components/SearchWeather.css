@@ -1,0 +1,109 @@
+h2 , h3 ,h4{
+    color: black;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.city h3{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: black;
+}
+.city h4{
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.box_main{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px; /* Opcional: para dar algo de espacio interno */
+    border: 3px solid #b19c9c; /* Opcional: para visualizar mejor los bordes */
+    background-color: #f9f9f9; /* Opcional: color de fondo */
+
+    margin: 10px; /* Espacio entre elementos */
+}
+.search-history{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.temp h3{
+    text-align: center;
+
+}
+.temp span{
+    color: black;
+}
+.temp img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+h4{
+    padding: 0;
+    margin: 0;
+}
+.temp img{
+    width: 150px;
+    height: 150px;
+
+}
+.close-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 1; /* Ajusta el line-height para que coincida con la altura */
+    text-align: center;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+}
+.search-history{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
